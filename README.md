@@ -18,8 +18,6 @@
 
 还有，本Repository有[git page](http://blog.yiliang.me/SSE-Compiling-Course/)功能，我们后面会将每个小组技术学习过程中总结的文案和资料放上去，这个是可以加分的哦。-—！！！
 
-
-
 ## 你该如何使用这个Repository?
 
 首先，你要申请一个github账号，然后再次进入到这里来，在右上角的地方点一个眼睛(Watch)，选择`Watching`，那么你就可以在你github的主页上看到我们这个Repository的更新状态了，更新时也会收到邮件通知。
@@ -30,8 +28,9 @@
 * 作业在Assignment 文件夹下
 * 每个人提交的作业我最后会copy到Assignment-Submit中，得分会在这个文件夹的scoring.md中
 * 如果你要提交你写的文章，直接邮件给我，记得要发markdown格式哦！
-* 查看课程主页请猛击 
-
+* 查看课程主页请猛击[课程主页]( http://blog.yiliang.me/SSE-Compiling-Course/)
+* 发现任何问题可以在issue里面提出,或者直接发pull
+request,想到任何新玩法也是可以提出来的。
 
 ## 助教和老师联系方式
 
@@ -57,7 +56,6 @@
 	网站：
 
 ```
-
 
 ## 写在后面
 
