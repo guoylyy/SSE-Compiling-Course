@@ -16,13 +16,13 @@
 
 另外，我们本着公正、公开、透明的思想，最后会把大家的作业和评分都放在这个repository里面，请大家注意。
 
-还有，本Repository有git page功能，我们后面会将每个小组技术学习过程中总结的文案和资料放上去，这个是可以加分的哦。-—！！！
+还有，本Repository有[git page](http://blog.yiliang.me/SSE-Compiling-Course/)功能，我们后面会将每个小组技术学习过程中总结的文案和资料放上去，这个是可以加分的哦。-—！！！
 
 
 
 ## 你该如何使用这个Repository?
 
-首先，你要申请一个github账号，然后再次进入到这里来，在右上角的地方点一个星星，那么你就可以在你github的主页上看到我们这个Repository的更新状态了。
+首先，你要申请一个github账号，然后再次进入到这里来，在右上角的地方点一个眼睛(Watch)，选择`Watching`，那么你就可以在你github的主页上看到我们这个Repository的更新状态了，更新时也会收到邮件通知。
 
 初步的repository组织如下：
 
