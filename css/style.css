@@ -1,0 +1,11 @@
+a.buttons {
+	-webkit-font-smoothing: antialiased;
+	background: url(../images/addition/arrow-down.png) no-repeat;
+	font-weight: normal;
+	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+	padding: 2px 2px 2px 22px;
+	height: 30px;
+}
+a.github {
+  background: url(../images/addition/octocat-small.png) no-repeat 1px;
+}
