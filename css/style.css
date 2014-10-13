@@ -9,3 +9,7 @@ a.buttons {
 a.github {
   background: url(../images/addition/octocat-small.png) no-repeat 1px;
 }
+
+ul.ticket {
+  margin:0px 0px 40px 0px !important;
+}
