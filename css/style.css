@@ -10,6 +10,23 @@ a.github {
   background: url(../images/addition/octocat-small.png) no-repeat 1px;
 }
 
+a.nonebg {
+	background: none;
+	text-shadow: none;
+	color: #000000;
+}
+
+a.nonebg:hover {
+	background: none;
+	text-shadow: none;
+	color: #52b6ec;
+}
+
 ul.ticket {
   margin:0px 0px 40px 0px !important;
+}
+
+ul.blogs {
+	margin:10px 10px 10px 10px;
+  list-style: none;
 }
