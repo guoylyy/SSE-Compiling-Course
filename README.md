@@ -29,6 +29,8 @@
 * 每个人提交的作业我最后会copy到Assignment-Submit中，得分会在这个文件夹的scoring.md中
 * 如果你要提交你写的文章，直接邮件给我，记得要发markdown格式哦！
 * 查看课程主页请猛击[课程主页]( http://blog.yiliang.me/SSE-Compiling-Course/)
+*
+一些简单的例子在[Samples](https://github.com/guoylyy/SSE-Compiling-Course/tree/master/Samples)文件夹下
 * 发现任何问题可以在issue里面提出,或者直接发pull
 request,想到任何新玩法也是可以提出来的。
 
