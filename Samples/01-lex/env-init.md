@@ -32,6 +32,8 @@
 
 传送门: [ftp://10.60.36.40](ftp://10.60.36.40) //需要在学院内访问，估计寝室也可以 
 
+更新了百度网盘的下载链接: [http://pan.baidu.com/s/1eQeSSjK](http://pan.baidu.com/s/1eQeSSjK)
+
 ```
 username: guest1   //没有密码直接回车
 ```
