@@ -1,0 +1,151 @@
+Created by PLY version 3.4 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> body
+Rule 1     body -> statement
+Rule 2     statement -> expression
+Rule 3     statement -> statement CR expression
+Rule 4     expression -> H1 factor
+Rule 5     expression -> H2 factor
+Rule 6     expression -> H3 factor
+Rule 7     factor -> TEXT
+
+Terminals, with rules where they appear
+
+CR                   : 3
+H1                   : 4
+H2                   : 5
+H3                   : 6
+TEXT                 : 7
+error                : 
+
+Nonterminals, with rules where they appear
+
+body                 : 0
+expression           : 2 3
+factor               : 4 5 6
+statement            : 1 3
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . body
+    (1) body -> . statement
+    (2) statement -> . expression
+    (3) statement -> . statement CR expression
+    (4) expression -> . H1 factor
+    (5) expression -> . H2 factor
+    (6) expression -> . H3 factor
+
+    H1              shift and go to state 4
+    H2              shift and go to state 2
+    H3              shift and go to state 3
+
+    body                           shift and go to state 1
+    expression                     shift and go to state 6
+    statement                      shift and go to state 5
+
+state 1
+
+    (0) S' -> body .
+
+
+
+state 2
+
+    (5) expression -> H2 . factor
+    (7) factor -> . TEXT
+
+    TEXT            shift and go to state 7
+
+    factor                         shift and go to state 8
+
+state 3
+
+    (6) expression -> H3 . factor
+    (7) factor -> . TEXT
+
+    TEXT            shift and go to state 7
+
+    factor                         shift and go to state 9
+
+state 4
+
+    (4) expression -> H1 . factor
+    (7) factor -> . TEXT
+
+    TEXT            shift and go to state 7
+
+    factor                         shift and go to state 10
+
+state 5
+
+    (1) body -> statement .
+    (3) statement -> statement . CR expression
+
+    $end            reduce using rule 1 (body -> statement .)
+    CR              shift and go to state 11
+
+
+state 6
+
+    (2) statement -> expression .
+
+    CR              reduce using rule 2 (statement -> expression .)
+    $end            reduce using rule 2 (statement -> expression .)
+
+
+state 7
+
+    (7) factor -> TEXT .
+
+    CR              reduce using rule 7 (factor -> TEXT .)
+    $end            reduce using rule 7 (factor -> TEXT .)
+
+
+state 8
+
+    (5) expression -> H2 factor .
+
+    CR              reduce using rule 5 (expression -> H2 factor .)
+    $end            reduce using rule 5 (expression -> H2 factor .)
+
+
+state 9
+
+    (6) expression -> H3 factor .
+
+    CR              reduce using rule 6 (expression -> H3 factor .)
+    $end            reduce using rule 6 (expression -> H3 factor .)
+
+
+state 10
+
+    (4) expression -> H1 factor .
+
+    CR              reduce using rule 4 (expression -> H1 factor .)
+    $end            reduce using rule 4 (expression -> H1 factor .)
+
+
+state 11
+
+    (3) statement -> statement CR . expression
+    (4) expression -> . H1 factor
+    (5) expression -> . H2 factor
+    (6) expression -> . H3 factor
+
+    H1              shift and go to state 4
+    H2              shift and go to state 2
+    H3              shift and go to state 3
+
+    expression                     shift and go to state 12
+
+state 12
+
+    (3) statement -> statement CR expression .
+
+    CR              reduce using rule 3 (statement -> statement CR expression .)
+    $end            reduce using rule 3 (statement -> statement CR expression .)
+
