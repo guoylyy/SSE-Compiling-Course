@@ -1,7 +1,5 @@
 # forrest gump
 
-![gump](http://a1.att.hudong.com/24/64/01300001178110130097643491565.jpg)
-
 
 ## OPENING
 
