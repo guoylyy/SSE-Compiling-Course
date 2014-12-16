@@ -121,8 +121,10 @@ python setup.py install
 
 ### 2.3 助教给的基础例子测试
 
+直接 git clone 下来用吧，git怎么用看后面的参考资料中[git guide](http://rogerdudler.github.io/git-guide/index.zh.html).
+
 ```
-cd sample
+cd ProjectTemplate/sample
 python run.py test.md
 ```
 
@@ -134,5 +136,7 @@ python run.py test.md
 * [Python Lex Yacc手册](http://www.pchou.info/open-source/2014/01/18/52da47204d4cb.html)
 * [ Python语法解析器PLY——lex and yacc in Python](http://blog.csdn.net/chosen0ne/article/details/8077880)
 * [Python 入门到不精通手册]()
+* [git guide](http://rogerdudler.github.io/git-guide/index.zh.html)
+* []
 
 
