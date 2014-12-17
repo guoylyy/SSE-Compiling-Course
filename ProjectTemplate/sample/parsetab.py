@@ -26,11 +26,11 @@ for _k, _v in _lr_goto_items.items():
 del _lr_goto_items
 _lr_productions = [
   ("S' -> body","S'",1,None,None,None),
-  ('body -> statement','body',1,'p_body','markdown.py',46),
-  ('statement -> expression','statement',1,'p_state','markdown.py',50),
-  ('statement -> statement CR expression','statement',3,'p_state','markdown.py',51),
-  ('expression -> H1 factor','expression',2,'p_exp_cr','markdown.py',58),
-  ('expression -> H2 factor','expression',2,'p_exp_cr','markdown.py',59),
-  ('expression -> H3 factor','expression',2,'p_exp_cr','markdown.py',60),
-  ('factor -> TEXT','factor',1,'p_factor_text','markdown.py',64),
+  ('body -> statement','body',1,'p_body','run.py',46),
+  ('statement -> expression','statement',1,'p_state','run.py',50),
+  ('statement -> statement CR expression','statement',3,'p_state','run.py',51),
+  ('expression -> H1 factor','expression',2,'p_exp_cr','run.py',58),
+  ('expression -> H2 factor','expression',2,'p_exp_cr','run.py',59),
+  ('expression -> H3 factor','expression',2,'p_exp_cr','run.py',60),
+  ('factor -> TEXT','factor',1,'p_factor_text','run.py',64),
 ]

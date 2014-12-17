@@ -1,11 +1,10 @@
 # -----------------------------------------------------------------------------
+# @author globit
+# This is template code of markdown generating by ply
+# @update 2014-12-16
+# @lience MIT
 # -----------------------------------------------------------------------------
-
 import sys
-sys.path.insert(0,"../..")
-
-if sys.version_info[0] >= 3:
-    raw_input = input
 
 tokens = (
     'H1','H2','H3', 'CR', 'TEXT'
@@ -36,11 +35,12 @@ def t_error(t):
 import ply.lex as lex
 lex.lex()
 
-
+# ------------------------------------
+# definitions of parsing rules by yacc
+# ------------------------------------
 precedence = (
     )
-
-names = { }
+names = {}
 
 def p_body(p):
     '''body : statement'''
