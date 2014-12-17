@@ -157,6 +157,7 @@ python run.py test.md
 * [python 在线编程平台](http://www.codeskulptor.org/)
 * [简明 python 教程](http://woodpecker.org.cn/abyteofpython_cn/chinese/)
 * [python code style](http://www.python.org/dev/peps/pep-0008/)
+* [python从入门到不精通教程 - 助教乱写的](http://blog.yiliang.me/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/2014/05/09/python-introduction.html)
 
 ### 3.3 git 相关
 * [git guide](http://rogerdudler.github.io/git-guide/index.zh.html)
