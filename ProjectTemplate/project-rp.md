@@ -17,7 +17,9 @@
 
 **通过python 编译原理库 pyLex 和 pyYACC 完成一个 Markdown 的解析器，解析器主要负责读取一篇 Markdown 文档，然后通过语法和词法解析，进而构建语法树，然后生成一个 HTML DOM 树。**
 
-[Markdown标准]()
+[Markdown标准](http://daringfireball.net/projects/markdown/syntax)
+
+[Markdown标准zh](http://wowubuntu.com/markdown/)
 
 听起来是不是很简单啊，所以看到这里，大神们就要问题来了—— 如何体现我的牛逼呢？ 这里我建议大家仔细看一下 Markdown 的语法，其实要支持所有的语法是很难的，所以我这里把项目的实现分成几个级别，以区别大神和小白，当然，只要达到最低级别就可以及格了。
 
@@ -152,9 +154,8 @@ python run.py test.md
 * [ Python语法解析器PLY——lex and yacc in Python](http://blog.csdn.net/chosen0ne/article/details/8077880)
 
 ### 3.2 python相关
-* [Python 入门到不精通手册-郭老板乱写的]()
-* [python 在线编程平台]()
-* [简明 python 教程]()
+* [python 在线编程平台](http://www.codeskulptor.org/)
+* [简明 python 教程](http://woodpecker.org.cn/abyteofpython_cn/chinese/)
 * [python code style](http://www.python.org/dev/peps/pep-0008/)
 
 ### 3.3 git 相关
