@@ -58,7 +58,13 @@ def p_exp_cr(p):
     '''expression : H1 factor
                 | H2 factor
                 | H3 factor'''
-    p[0] = '<h1>' + str(p[2]) + '</h1>'
+    if p[1] == '#':
+        p[0] = '<h1>' + str(p[2]) + '</h1>'
+    elif p[1] == '##':
+        p[0] = '<h2>' + str(p[2]) + '</h2>'
+    elif p[1] == '###': 
+        p[0] = '<h3>' + str(p[2]) + '</h3>'
+
 
 def p_factor_text(p):
     "factor : TEXT"
